@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Apps - SmartAI</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+  <script type="text/javaScript" src="apps.js" ></script>
+</head>
+<body>
+
+  <!-- Logo at the top of the page -->
+  <div class="logo"><p>Smart AI <br> ما تحتاج إليه في عالم الأعمال </p></div>
+    <div class="links">
+      <a href="index.html">الرئيسية</a>
+      <a href="AboutUs.html">حول الموقع</a>
+      <a href="apps.html">التطبيقات</a>
+      <a href="add_app.html">إضافة تطبيق</a>
+    </div>
+  </div>
+
+
+  <div class="container">
+
+    <!--Table that  contains all apps data -->
+    <table id="apps">
+
+      <!--Tabe Headers -->
+      <tr>
+        <th>اسم التطبيق</th>
+        <th>الشركة المطورة</th>
+        <th>الاستخدام</th>
+        <th>إظهار التفاصيل</th>
+        <th>مجاني</th>
+      </tr>
+
+      <!--Visible Details-->
+      <tr>
+        <td>ChatGPT</td>
+        <td>OpenAI</td>
+        <td>تطبيق محادثة لكتابة النصوص ، الأكواد البرمجية ، وغيرها الكثير</td>
+        <td><input type="checkbox" class="showHide"></td>
+        <td><input type="checkbox" checked></td>
+      </tr>
+      <!--Hidden  Details-->
+      <tr class="hidden">
+        <td colspan="5" >
+          <table class="details">
+            <tr>
+              <td>
+                <p>الموقع الالكتروني : <a href="https://chat.openai.com" target="_blank">https://chat.openai.com</a></p>
+              </td>
+              <td>
+                <!--external css calss cannot be used here because the external link width and height overrides attributes in external css class-->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/ChatGPT-Logo.png"  alt="ChatGPT Photo" width="150" height="100"><br>
+              </td>
+            </tr>
+            <tr>
+               <td>
+                <p>ChatGPT أداة ذكاء صناعي فعالة في توليد النصوص ، حل المشاكل ، كابة الأكواد البرمجية ، والمساعدة في المهام الإبداعية </a></p>
+              </td>
+              <td>
+                <!--iframe was used in order to make youtube video available on this page -->
+                <!--embed code can be obtained by right clicking on video on youtube and choose copy embed code-->
+                <iframe width="552" height="311" src="https://www.youtube.com/embed/mjyo38u-N74" title="ChatGPT Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </td>
+            </tr>
+          </table>   
+        </td>
+      </tr>
+
+
+
+      <!--Visible Details-->
+      <tr>
+        <td>Gemini</td>
+        <td>Google</td>
+        <td>مساعد مدعوم بالذكاء الصناعي من أجل البحث ، الكتابة ، الأكواد ابرمجية ، وزيادة الانتاجية </td>
+        <td><input type="checkbox" class="showHide"></td>
+        <td><input type="checkbox" checked ></td>
+      </tr>
+      <!--Hidden  Details-->
+      <tr class="hidden">
+        <td colspan="5" >
+          <table class="details">
+            <tr>
+              <td>
+                <p>الموقع الالكتروني : <a href="https://bard.google.com" target="_blank">https://bard.google.com</a></p>
+              </td>
+              <td>
+                <!--external css calss cannot be used here because the external link width and height overrides attributes in external css class-->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Google_Bard_logo.svg"  alt="Gemini Photo" width="150" height="100"><br>
+              </td>
+            </tr>
+            <tr>
+               <td>
+                <p>Gemini هو أداة التخاطب من جوجل والتي تتكامل مع خدمات جوجل من أجل امساعدة المستخدمين في الكتابة والأبحاث والعصف الذهني </a></p>
+              </td>
+              <td>
+                <!--iframe was used in order to make youtube video available on this page -->
+                <!--embed code can be obtained by right clicking on video on youtube and choose copy embed code-->
+                <iframe width="552" height="311" src="https://www.youtube.com/embed/sMrUs3VQauY" title="How To Use Google Bard AI | Google Bard Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </td>
+            </tr>
+          </table>   
+        </td>
+      </tr>  
+
+
+
+       <!--Visible Details-->
+      <tr>
+        <td>Grammarly</td>
+        <td>Grammarly Inc.</td>
+        <td> مساعد كتابة مدعوم بالذكاء الصناعي في مجال القواعد اللغوية ، النطق ، والوضوح </td>
+        <td><input type="checkbox" class="showHide"></td>
+        <td><input type="checkbox" checked></td>
+      </tr>
+      <!--Hidden  Details-->
+      <tr class="hidden">
+        <td colspan="5" >
+          <table class="details">
+            <tr>
+              <td>
+                <p>الموقع الالكتروني : <a href="https://www.grammarly.com" target="_blank">https://www.grammarly.com</a></p>
+              </td>
+              <td>
+                <!--external css calss cannot be used here because the external link width and height overrides attributes in external css class-->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Grammarly_logo.svg/768px-Grammarly_logo.svg.png?20171129173151"  alt="Grammarly Photo" width="150" height="100"><br>
+              </td>
+            </tr>
+            <tr>
+               <td>
+                <p>يستخدم Grammarly الذكاء الصناعي من أجل تحسين الكتابة من خلال التحقق من القواعد اللغوية ، التهجئة ، والنطق . كما أنه يقدم مقترحات بهدف تحسين الوضوح في عملية الكتابة  </a></p>
+              </td>
+              <td>
+                <!--iframe was used in order to make youtube video available on this page -->
+                <!--embed code can be obtained by right clicking on video on youtube and choose copy embed code-->
+                <iframe width="552" height="311" src="https://www.youtube.com/embed/AUejmYbxKtA" title="How to Use Grammarly AI to Improve Your Writing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </td>
+            </tr>
+          </table>   
+        </td>
+      </tr> 
+
+
+      <!--Visible Details-->
+      <tr>
+        <td>DALL·E</td>
+        <td>OpenAI</td>
+        <td> أداة ذكاء صناعي لتوليد الصور ونصوص الأوامر  </td>
+        <td><input type="checkbox" class="showHide"></td>
+        <td><input type="checkbox" checked></td>
+      </tr>
+      <!--Hidden  Details-->
+      <tr class="hidden">
+        <td colspan="5" >
+          <table class="details">
+            <tr>
+              <td>
+                <p>الموقع الالكتروني : <a href="https://openai.com/dall-e" target="_blank">https://openai.com/dall-e</a></p>
+              </td>
+              <td>
+                <!--external css calss cannot be used here because the external link width and height overrides attributes in external css class-->
+                <img src="https://openai.com/dall-e-3/"  alt="dall-e Photo" width="150" height="100"><br>
+              </td>
+            </tr>
+            <tr>
+               <td>
+                <p>يقوم Dall E  بتوليد صور واقعية وذات لمسة فنية باستخدام توصيف نصي للصورة ، مفيد جداً في مجال التصميم الإعلاني والتعليم والأعمال الإبداعية  </a></p>
+              </td>
+              <td>
+                <!--iframe was used in order to make youtube video available on this page -->
+                <!--embed code can be obtained by right clicking on video on youtube and choose copy embed code-->
+                <iframe width="552" height="311" src="https://www.youtube.com/embed/0AKTh-YTV9Q" title="How to Use DALL·E 3 in ChatGPT to Create Unique Images" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </td>
+            </tr>
+          </table>   
+        </td>
+      </tr>
+
+
+
+
+
+      <!--Visible Details-->
+      <tr>
+        <td>Synthesia</td>
+        <td>Synthesia Ltd</td>
+        <td> أداة توليد فيديو مدعوم بالذكاء الصناعي   </td>
+        <td><input type="checkbox" class="showHide"></td>
+        <td><input type="checkbox" ></td>
+      </tr>
+      <!--Hidden  Details-->
+      <tr class="hidden">
+        <td colspan="5" >
+          <table class="details">
+            <tr>
+              <td>
+                <p>الموقع الالكتروني : <a href="https://www.synthesia.io" target="_blank">https://www.synthesia.io</a></p>
+              </td>
+              <td>
+                <!--external css calss cannot be used here because the external link width and height overrides attributes in external css class-->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Synthesia_Logo_2024.png"  alt="synthesia Photo" width="150" height="100"><br>
+              </td>
+            </tr>
+            <tr>
+               <td>
+                <p>يمكن هذا التطبيق المستخدمين من توليد فيديوهات احترافية فقط عن طريق ادخال وصف نصي لما يريدونه في الفيديو  </a></p>
+              </td>
+              <td>
+                <!--iframe was used in order to make youtube video available on this page -->
+                <!--embed code can be obtained by right clicking on video on youtube and choose copy embed code-->
+                <iframe width="552" height="311" src="https://www.youtube.com/embed/7k3N1bUURa4" title="AI Video in 4 Minutes with Synthesia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </td>
+            </tr>
+          </table>   
+        </td>
+      </tr>
+
+
+
+
+
+
+
+    </table>  
+  </div>
+
+  <div class="bottom">&copy; 2025 SmartAI</div>
+
+
+</body>
+</html>
